@@ -1,13 +1,13 @@
 // @flow
 import React, { Component } from 'react'
 import {
-  WebView,
   View,
   ActivityIndicator,
   Platform,
   StyleSheet,
 } from 'react-native'
 import * as FileSystem from 'expo-file-system'
+import { WebView } from 'react-native-webview'
 import Constants from 'expo-constants'
 
 const {
